@@ -42,9 +42,6 @@ function Home() {
       return setOrder(true); // 내림차순
     }
   };
-
-  console.log(order);
-
   return (
     <>
       <Flex alignItems="center" justifyContent="center" margin="40px">
